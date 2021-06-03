@@ -2,7 +2,9 @@
 
 namespace Gliterd\BackblazeB2\Tests;
 
-class BackblazeB2ServiceProviderTests extends \PHPUnit_Framework_TestCase
+use PHPUnit\Framework\TestCase;
+
+class BackblazeB2ServiceProviderTests extends TestCase
 {
     public function testServiceProvider()
     {
